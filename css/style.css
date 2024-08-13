@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    padding: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    font-size: 24px;
+    margin: 100px 10px;
+    border: 1px solid white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+      display: flex;         
+    
+ 
+    align-items: flex-start; 
+    justify-content: flex-end;  
+}
+  
+   
+
+  
+  .box1 {
+
+    background-image: url('../images/pexels-davidmcbee-1546168.jpg');
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover;
+    height: 250px;
+    width: 60%;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  .box2{
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 40%;
+    height: 530px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .box1 > a > button{
+    background-color: transparent;
+    width: 150px;
+    color: white;
+    border: 1px white solid;
+    height: 40px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+  }
+  .box1 > a > button:hover{
+    background-color: orangered;
+    transition-duration: 0.4s;
+
+    cursor: pointer;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.box2 > form > button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.box2 > form > button:hover {
+    background-color: white;
+    transition-duration: 0.4s;
+    color: black;
+    border: 1px solid black;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   transition-duration: 0.4s;
+}
+
+.topnav a:hover {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.topnav a.active {
+  background-color: orangered;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.cdbt{
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid white;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
